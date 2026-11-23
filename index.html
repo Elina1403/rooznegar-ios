@@ -12,8 +12,8 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon-192.png">
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
-  <link rel="stylesheet" href="./app.css">
-  <script src="./app.js" type="module"></script>
+  <link rel="stylesheet" href="./app.ece1778a6b681184.css">
+  <script src="./app.1619aa020d7e375f.js" type="module"></script>
 </head>
 <body>
   <div class="shell">
@@ -117,6 +117,10 @@
 
         <section class="card tool-card theme-card">
           <h2>پوستهٔ برنامه</h2>
+          <div class="appearance-controls">
+            <span id="appearance-label">حالت نمایش</span>
+            <div id="appearance-modes" class="appearance-modes" role="group" aria-labelledby="appearance-label"></div>
+          </div>
           <div id="themes" class="themes" aria-label="پوسته‌های روزنگار"></div>
         </section>
       </section>
@@ -132,13 +136,13 @@
             </ol>
             <div class="form-actions">
               <button type="button" class="button primary" id="copy-widget" disabled>کپی اسکریپت</button>
-              <a class="button outline" href="./Rooznegar-Widget.js" download>دریافت فایل اسکریپت</a>
+              <a class="button outline" id="widget-download" href="./Rooznegar-Widget.js?v=804a460c13d07f37" download>دریافت فایل اسکریپت</a>
             </div>
             <p class="copy-status muted" id="copy-status" role="status"></p>
             <details id="widget-source"><summary>نمایش کد برای کپی دستی</summary>
               <textarea id="widget-code" dir="ltr" rows="7" readonly aria-label="کد اسکریپت ویجت"></textarea>
             </details>
-            <p class="muted widget-note">برای تغییر رنگ، اندازهٔ نوشته‌ها، فاصله یا نمایش ساعت، اسکریپت را یک‌بار در Scriptable اجرا کن. زمان تازه‌سازی ساعت را iOS تعیین می‌کند.</p>
+            <p class="muted widget-note">برای تغییر پوسته، حالت نمایش، رنگ، اندازهٔ نوشته‌ها یا ساعت، اسکریپت را در Scriptable اجرا کن. زمان تازه‌سازی ساعت را iOS تعیین می‌کند.</p>
           </article>
           <div class="widget-demo">
             <div class="widget-example" aria-label="نمونهٔ ویجت کوچک">
