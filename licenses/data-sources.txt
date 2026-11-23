@@ -1,0 +1,15 @@
+Iranian observances are compiled by https://github.com/persian-calendar/events (CC0-1.0).
+The editions and recurring rules in that dataset are distinct from the dated lunar tables.
+
+Lunar dates follow the published tables of the University of Tehran Calendar Center:
+https://calendar.ut.ac.ir/
+The daily date columns for Solar Hijri 1405 and 1406 were extracted from copies of
+the official calendars. Earlier calendar-center entries and documented observations
+come from the archival transcription https://github.com/roozbehp/qamari .
+The app leaves the lunar date unavailable outside the dated source tables.
+
+1405: https://www.avazehgostar.com/file/pdf/calendar_1405
+1406: https://kargozin.com/wp-content/uploads/2026/11/تقویم-رسمی-سال-1406-هجری-شمسی.pdf
+
+Solar year boundaries follow the Borkowski algorithm as implemented by
+https://github.com/jalaali/jalaali-js (MIT). See Jalaali-MIT.txt.
