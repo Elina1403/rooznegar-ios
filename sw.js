@@ -1,5 +1,5 @@
-const CACHE = 'rooznegar-2aa36663098bdf79';
-const ASSETS = ["./Rooznegar-Widget.js?v=f011c49aca1d7dae","./app.7032999abfb0c084.css","./app.a921181d436cfdd3.js","./fonts/Vazirmatn-Bold.ttf","./fonts/Vazirmatn-Regular.ttf","./icons/apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/maskable-512.png","./index.html","./licenses/Jalaali-MIT.txt","./licenses/Vazirmatn-OFL.txt","./licenses/data-sources.txt","./manifest.webmanifest"];
+const CACHE = 'rooznegar-c5ca6f4df0640782';
+const ASSETS = ["./Rooznegar-Widget.js?v=92d1e23b106d0b7d","./app.08de510ea10a3415.js","./app.53ddc13cacf0e514.css","./fonts/Vazirmatn-Bold.ttf","./fonts/Vazirmatn-Regular.ttf","./icons/apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/maskable-512.png","./index.html","./licenses/Jalaali-MIT.txt","./licenses/Vazirmatn-OFL.txt","./licenses/data-sources.txt","./manifest.webmanifest"];
 const appRoot = new URL('./', self.location.href);
 const primary = new URL('index.html', appRoot).href;
 const files = new Set(ASSETS.map(asset => new URL(asset, appRoot).href));
